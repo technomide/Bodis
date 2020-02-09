@@ -88,11 +88,15 @@ header{
 #main-nav > :nth-child(2) > :nth-child(2) a{
 	padding: 10px 33px;
 	font-size: 18px;
+	border: 1px solid #24D7A3;
+	transition:all;
+	border-radius: 20px;
+	transition-duration: 0.5s;
 }
 #main-nav > :nth-child(2) > :nth-child(2) a:hover{
 	background: #212994;
+	border: 1px solid #212994;
 	color: #fff;
-	border-radius: 20px;
 }
 #main-nav > :nth-child(2) > :nth-child(2) a i{
 	font-size: 12px;
@@ -101,6 +105,9 @@ header{
 	background: #212994;
 	border-radius: 20px;
 	margin-left: 4px;
+	transition: all;
+	transition-duration: 0.5s;
+	/* border: 1px soild #212994 !important; */
 }
 #main-nav > :nth-child(2) > :nth-child(2) .second-a:hover{
 	border: 1px solid #24D7A3;
@@ -191,10 +198,12 @@ Third Section
 }
 #main-contant-third > :nth-child(1) a{
 	padding: 9px 30px;
+	border: 1px solid #212994;
 	background: #212994;
 }
 #main-contant-third > :nth-child(1) a:hover{
-	background: #8DBCFF;
+	background: #FFF;
+	border: 1px solid #212994;
 	transition: 0.5s;
 	color: #212994;
 }
@@ -227,11 +236,12 @@ Fourth Section
 #main-contant-fourth > :nth-child(1) a{
 	padding: 9px 30px;
 	background: #212994;
-
+	border: 1px solid #212994;
 }
 #main-contant-fourth > :nth-child(1) a:hover{
-	background: #8DBCFF;
+	background: #fFF;
 	color: #212994;
+	border: 1px solid #212994;
 	transition: 0.5s
 }
 /*
@@ -277,17 +287,15 @@ Fifth Section
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	transition: 2s;
+	transition: 1s;
 }
 #cards .card:hover{
-	border: 3px solid #333;
-	background: #212994;
-	color: #fff;
+	box-shadow: 5px 5px 30px black;
+	
 }
-#cards .card:hover > :nth-child(1) a{
-	background: #fff;
-	color: #212994;
-	transition: 2s;
+#cards a:hover{
+	background-color: #fff;
+	color: #212994 ;
 }
 #cards .card > :nth-child(1){
 	display: flex;
@@ -306,6 +314,14 @@ Fifth Section
 	max-width: 110px;
 	text-align: center;
 	font-size: 16px;
+	transition: all;
+	border: 1px solid #212994;
+	transition-duration: 0.5s;
+}
+#cards .card > :nth-child(1) a:hover{
+	background-color: #fff;
+	color: #212994;
+	border: 1px solid #212994;
 }
 #cards .card > :nth-child(1) i{
 	font-size: 29px;
